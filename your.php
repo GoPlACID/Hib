@@ -1,4 +1,4 @@
-<?php session_start();
+﻿<?php session_start();
 	if (isset($_POST['performer'])) { $performer = $_POST['performer']; if ($performer == '') { unset($performer);} } 
 if (isset($_POST['Album'])) { $Album = $_POST['Album']; if ($Album == '') { unset($Album);} } 	
 if (isset($_POST['Track'])) { $Track = $_POST['Track']; if ($Track == '') { unset($Track);} } 
